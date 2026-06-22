@@ -16,12 +16,6 @@ Core entities include:
 * `schools`: Collegiate background information.
 * `performance`: Career statistics and game data.
 
-## 💡 Key Insights & Findings
-*(Employers look closely at this section. Replace the examples below with your actual findings)*
-1. **The Salary Peak:** Player salaries tend to peak between the ages of 28 and 31, with a sharp drop-off after age 34.
-2. **Collegiate Impact:** Players drafted from [School Name] have the highest average career lifespan in the major leagues.
-3. **ROI on Positions:** Pitchers account for the highest percentage of total team payrolls, but infielders show the most consistent year-over-year wage growth.
-
 ## 📂 Project Structure
 
 | File | Description |

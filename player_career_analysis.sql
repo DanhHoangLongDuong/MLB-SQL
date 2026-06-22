@@ -1,0 +1,18 @@
+-- PLAYERS TABLE
+SELECT * FROM players;
+SELECT * FROM salaries;
+
+-- CALCULATE PLAYER AGE AT THEIR FIRST AND LAST GAME,  CAREER LENGTH OF EACH PLAYER
+SELECT playerID,
+	   nameGiven,
+	   (EXTRACT(YEAR FROM debut) - birthYear) AS debut_age,
+       (EXTRACT(YEAR FROM finalGame) - birthYear) AS last_game_age,
+       (EXTRACT(YEAR FROM finalGame) - EXTRACT(YEAR FROM debut)) AS career_length
+FROM players
+ORDER BY career_length DESC
+;
+
+-- PLAYER STARTING YEAR TEAM AND ENDING YEAR TEAM
+
+
+-- NUMBER OF PLAYERS STARTED AND ENDED ON THE SAME TEAM AND PLAYED FOR OVER A DECADE
